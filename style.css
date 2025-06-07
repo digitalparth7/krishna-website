@@ -1,19 +1,99 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishna Digital Academy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Hind&family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="assets/images/krishna.png" alt="Krishna" class="logo">
+    <h1>कृष्णा डिजिटल अकैडमी</h1>
+    <p>Empowering Dreams Digitally</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="about">
+    <h2>हमारे बारे में</h2>
+    <p>हम भारत के गाँव-गाँव में डिजिटल शिक्षा को पहुँचाने का कार्य कर रहे हैं। यह प्रयास श्रीकृष्ण की प्रेरणा से चल रहा है।</p>
+  </section>
+
+  <section class="projects">
+    <h2>हमारे प्रमुख प्रोजेक्ट्स</h2>
+    <div class="card">
+      <h3>Coding Geeta</h3>
+      <p>श्लोक आधारित कोडिंग वेबऐप।</p>
+    </div>
+    <div class="card">
+      <h3>AI-Madhav</h3>
+      <p>AI मित्र जो श्रीकृष्ण की शैली में मार्गदर्शन करता है।</p>
+    </div>
+    <div class="card">
+      <h3>Office Tools</h3>
+      <p>सरकारी कर्मचारियों के लिए ऑटोमेटेड टूल्स।</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Digital Parth | Founder & CEO | Krishna Digital Academy 🇮🇳🚩</p>
+  </footer>
+</body>
+</html>
 body {
-  background-color: #f9f4ef;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Baloo 2', sans-serif;
+  margin: 0;
+  background: url('assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
   text-align: center;
-  padding: 50px;
-  color: #3e2723;
 }
 
-h1 {
-  color: #d84315;
+.logo {
+  height: 80px;
 }
 
-a {
-  display: inline-block;
-  margin: 10px;
-  color: #00695c;
+nav {
+  background-color: #1e1e1e;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: #ffd700;
+  margin: 0 1rem;
   text-decoration: none;
-  font-size: 18px;
+  font-weight: bold;
+}
+
+.about, .projects {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1rem;
 }
